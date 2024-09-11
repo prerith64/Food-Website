@@ -1,0 +1,29 @@
+.Header{
+    width: 95%;
+    /* background: url('image.png') ; */
+    background: linear-gradient(to right, rgb(21, 21, 21), rgba(40,40,43,0.7));
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50vh;
+    margin: 30px auto;
+}
+.Header-contents{
+    text-align: justify;
+    max-width: 50%;
+    animation: fadeIn 3s;
+}
+.Header-contents h2{
+    font-weight: 500;
+    color: white;
+    font-size:2.5rem ;
+}
+.Header-contents p{
+    font-size: 1vw;
+    color: white;
+}
+
+.Header-contents button{
+    font-size: 12px;
+    padding-top:12px ;
+    padding-bottom: 12px;
+}

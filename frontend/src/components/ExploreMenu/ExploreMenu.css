@@ -1,0 +1,24 @@
+.explore-menu-list-item img{
+    width: 7.5vw;
+    height: 7.5vw;
+    min-width: 80px;
+    min-height: 80px;
+    cursor: pointer;
+    transition:  0.2s;
+    animation: fadeIn 5s;
+}
+.explore-menu-list{
+    text-align: center;
+    overflow-x: scroll;
+    gap: 30px;
+    margin: 20px 0px;
+   
+}
+.explore-menu-list::-webkit-scrollbar{
+    visibility: hidden;
+}
+
+.explore-menu-list-item .active{
+    border: 4px solid orangered;
+    padding: 2px;
+}
